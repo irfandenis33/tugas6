@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.page1 {
+	background: url(asset/image.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+nav .nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-logo img {
+    width: 220px;
+    height: 25px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 20px;
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.page1-warna {
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #060826;
+    opacity: 0.7;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+}
+
+.page1-img {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background:url(asset/object-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 800px;
+}
+
+.konten {
+    display: flex;
+    margin: 160px auto;
+}
+
+.konten .kiri {
+    width: 60%;
+}
+
+.konten .kiri .isi ul>li {
+	list-style-type: none;
+    margin-top: 30px;
+}
+
+.konten .kiri .isi ul>li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.konten .kanan {
+    margin: auto;
+    display: flex;
+    color: white;
+    width: 40%;
+    justify-content: center;
+}
+
+.konten .kanan .isi h1{
+    font-size: 40px;
+}
+
+.konten .kanan .isi p{
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.page2 {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 600px;
+}
+
+.judul {
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+.judul h3 {
+    font-size: 42px;
+}
+
+.judul h1 {
+    font-size: 42px;
+    color: #A4D84F;
+}
+
+.isi-tengah-kiri {
+    display: flex;
+}
+
+.gambar-tengah {
+    width: 50%;
+}
+
+.gambar-tengah img{
+    width: 491.44px;
+}
+
+.isi-tengah-kanan{
+    width: 50%;
+}
+
+.isi-tengah-kanan h1 {
+    font-size: 42px;
+}
+
+.isi-tengah-kanan p {
+     font-size: 18px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}
+
+.button {
+    display: flex;
+}
+
+.tombol1 {
+    height: 45px;
+    padding: 0 20px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tombol1:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.tombol2 {
+    height: 45px;
+    padding: 0 20px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.tombol2:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.tombol3 {
+    height: 40px;
+    background-color: #A9DA57;
+    border: 1px solid transparent;
+    padding: 0 30px;
+    color: white;
+    margin: 30px 0;
+    font-size: 15px;
+}
